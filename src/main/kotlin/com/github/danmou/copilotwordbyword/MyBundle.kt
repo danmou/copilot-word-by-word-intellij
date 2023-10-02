@@ -1,4 +1,4 @@
-package com.github.danmou.copilotwordbywordintellij
+package com.github.danmou.copilotwordbyword
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

@@ -1,4 +1,4 @@
-package com.github.danmou.copilotwordbywordintellij.toolWindow
+package com.github.danmou.copilotwordbyword.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -8,8 +8,8 @@ import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBPanel
 import com.intellij.ui.content.ContentFactory
-import com.github.danmou.copilotwordbywordintellij.MyBundle
-import com.github.danmou.copilotwordbywordintellij.services.MyProjectService
+import com.github.danmou.copilotwordbyword.MyBundle
+import com.github.danmou.copilotwordbyword.services.MyProjectService
 import javax.swing.JButton
 
 
