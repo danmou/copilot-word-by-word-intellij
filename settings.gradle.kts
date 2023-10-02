@@ -1,1 +1,1 @@
-rootProject.name = "copilot-word-by-word-intellij"
+rootProject.name = "copilot-word-by-word"

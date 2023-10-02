@@ -1,9 +1,9 @@
-package com.github.danmou.copilotwordbywordintellij.services
+package com.github.danmou.copilotwordbyword.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import com.github.danmou.copilotwordbywordintellij.MyBundle
+import com.github.danmou.copilotwordbyword.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {

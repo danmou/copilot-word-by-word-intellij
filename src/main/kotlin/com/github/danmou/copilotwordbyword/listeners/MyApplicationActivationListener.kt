@@ -1,4 +1,4 @@
-package com.github.danmou.copilotwordbywordintellij.listeners
+package com.github.danmou.copilotwordbyword.listeners
 
 import com.intellij.openapi.application.ApplicationActivationListener
 import com.intellij.openapi.diagnostic.thisLogger
