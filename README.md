@@ -1,4 +1,4 @@
-# copilot-word-by-word-intellij
+# Copilot Word by Word Plugin for IntelliJ/JetBrains IDEs
 
 ![Build](https://github.com/danmou/copilot-word-by-word-intellij/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
@@ -17,7 +17,7 @@
 - [x] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
 
 <!-- Plugin description -->
-Simple plugin to allow accepting Copilot suggestions word by word. Not an official plugin, not affiliated with GitHub.
+Simple plugin to allow accepting Copilot suggestions word by word. Not an official plugin, no affiliation with GitHub.
 
 ## Default keymap
 TODO
