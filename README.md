@@ -5,10 +5,11 @@
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/22838-copilot-word-by-word.svg)](https://plugins.jetbrains.com/plugin/22838-copilot-word-by-word)
 
 <!-- Plugin description -->
-Simple plugin to allow accepting Copilot suggestions word by word. Not an official plugin, no affiliation with GitHub.
+Simple plugin to allow accepting Copilot suggestions word by word. No affiliation with GitHub.
 
 ## Default keymap
-TODO
+- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>&#8594;</kbd> to accept the next word of the suggestion.
+
 <!-- Plugin description end -->
 
 ## Installation
@@ -24,8 +25,8 @@ TODO
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
 
----
-Plugin based on the [IntelliJ Platform Plugin Template][template].
-
-[template]: https://github.com/JetBrains/intellij-platform-plugin-template
-[docs:plugin-description]: https://plugins.jetbrains.com/docs/intellij/plugin-user-experience.html#plugin-description-and-presentation
+## References
+- Plugin based on the [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template).
+- [GitHub Copilot](https://copilot.github.com/)
+- The implementation of this plugin draws inspiration from [Stewardess](https://github.com/cmp-nct/Stewardess)
+  by [cmp-nct](https://github.com/cmp-nct).
