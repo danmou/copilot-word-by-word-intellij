@@ -5,14 +5,14 @@
     <vendor>danmou</vendor>
 
     <depends>com.intellij.modules.platform</depends>
+    <depends>com.github.copilot</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
-
-    <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.danmou.copilotwordbyword.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-    </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.danmou.copilotwordbyword.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-    </applicationListeners>
+    <actions>
+        <action id="com.github.danmou.copilotwordbyword.actions.AcceptWordAction"
+                class="com.github.danmou.copilotwordbyword.actions.AcceptWordAction"
+                text="CopilotAcceptWord" description="Accept first word of Copilot suggestion">
+            <add-to-group group-id="EditorActions" anchor="last"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt RIGHT"/>
+        </action>
+    </actions>
 </idea-plugin>
