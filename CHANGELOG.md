@@ -1,8 +1,11 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# copilot-word-by-word-intellij Changelog
+# Copilot Word by Word Plugin Changelog
 
 ## [Unreleased]
+
+### Added
+- Basic functionality to accept the next word of the suggestion.
 
 ## [0.0.3] - 2023-10-02
 
