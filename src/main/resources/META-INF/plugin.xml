@@ -8,9 +8,9 @@
     <depends>com.github.copilot</depends>
 
     <actions>
-        <action id="com.github.danmou.copilotwordbyword.actions.AcceptWordAction"
+        <action id="copilotwordbyword.AcceptNextWord"
                 class="com.github.danmou.copilotwordbyword.actions.AcceptWordAction"
-                text="CopilotAcceptWord" description="Accept first word of Copilot suggestion">
+                text="Copilot: Accept Next Word" description="Accept first word of Copilot suggestion">
             <add-to-group group-id="EditorActions" anchor="last"/>
             <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt RIGHT"/>
         </action>
